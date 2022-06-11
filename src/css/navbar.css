@@ -1,0 +1,16 @@
+.nav-bar {
+    display: flex;
+}
+
+.nav-item {
+    height: 44px;
+    width: 50px;
+    background-color: red;
+    line-height: 44px;
+    text-align: center;
+}
+
+.nav-center {
+    flex: 1;
+    background-color: aquamarine;
+}
