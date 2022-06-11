@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ChildCpn from './ChildCpn'
 import Navbar from "./Navbar";
+import Context from "./Context";
 class App extends Component {
   state = {
     tabs: [
@@ -28,6 +29,7 @@ class App extends Component {
           </h1>
         </section>
         <Navbar leftSlot={<span>left</span>} centerSlot={<h3>center</h3>} rightSlot={<strong>right</strong>} />
+        <Context></Context>
       </div>
     );
   }
