@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import HighOrderComponent from './HighOrderComponent'
-import UseStyleComponent from './UseStyleComponent'
+import TestAntd from './TestAntd'
 export default class App extends Component {
   render() {
     return (
       <div>
-        <HighOrderComponent/>
-        <UseStyleComponent/>
+        <TestAntd/>
       </div>
     )
   }
